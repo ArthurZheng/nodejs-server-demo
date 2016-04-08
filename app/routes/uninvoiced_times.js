@@ -1,5 +1,5 @@
 'use strict';
-// const moment = require('moment');
+const moment = require('moment');
 const db = require('../db');
 
 module.exports = {
@@ -34,19 +34,17 @@ function getData(cb) {
 
 	times.id AS timesheet_times_id,
 
-	DATE(times.start_time) AS timesheet_time_date,
+	DATE(times.start_time) AS timesheet_times_date,
 
 	TIMESTAMPDIFF(MINUTE, times.start_time, times.end_time) / 60 AS hours,
 
-	task_assignments.billing_units as Unit_Type,
+	task_assignments.billing_units as unit_type,
 
 	task_assignments.bill_rate as rate,
 
-	purchase_order.value - ROUND(TIMESTAMPDIFF(MINUTE, times.start_time, times.end_time) / 60 / 8, 1) * task_assignments.bill_rate  AS amount_remaining,
-
 	purchase_order.value AS budget,
 
-	purchase_order.po_number AS PO_Num,
+	purchase_order.po_number AS po_number,
 
 
 	IF(approvals.updated_at <  times.user_updated_at, "Changed", "Saved") AS timesheet_time_entry_status,
@@ -100,10 +98,19 @@ function getData(cb) {
 				projects[row.project_id] = {
 					name: row.client_project,
 					consultantWeeks: {},
+					totalHours: 0,
+					billableUnits: 0,
+					rate: 0,
+					budget: 0,
+					amount: 0,
+					amountRemaining: 0,
+					poNumber: '',
+					status: '',
 				}
 			}
 
 			let project = projects[row.project_id];
+
 			let rowkey = row.consultant_id + ':' + row.week_start;
 
 			if (!project.consultantWeeks.hasOwnProperty(rowkey)){
@@ -119,24 +126,39 @@ function getData(cb) {
 				}
 			}
 
-			let cw = project.consultantWeeks[rowkey]
-			cw.hours += row.hours
+			let cw = project.consultantWeeks[rowkey];
+			cw.hours += row.hours;
+			project.totalHours += row.hours;
+			console.log('project.totalHours', project.totalHours);
 			cw.times.push({
 				date: row.timesheet_time_date,
 				hours: row.hours,
-			})
+			});
+
+
+			project.billableUnits = (project.totalHours / 8).toFixed(1);
+			project.rate = row.rate;
+			project.budget = row.budget;
+			project.amount = project.billableUnits * project.rate;
+			project.amountRemaining = project.budget - project.amount;
+			project.poNumber = row.po_number;
+			project.status = row.status;
+
 		}
 
 		let projects_array = [];
 		for (let k in projects) {
 				let project = projects[k];
 				let consultant_weeks = [];
+
 				for(let j in project.consultantWeeks){
-					let consultant_week = project.consultantWeeks[j]
-					consultant_weeks.push(consultant_week)
+					let consultant_week = project.consultantWeeks[j];
+					consultant_weeks.push(consultant_week);
 				}
 				project.consultantWeeks = consultant_weeks;
-				projects_array.push(project)
+
+
+				projects_array.push(project);
 		}
 
 	cb(null, {projects: projects_array});
