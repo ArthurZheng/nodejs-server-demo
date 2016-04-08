@@ -99,14 +99,6 @@ function getData(cb) {
 				projects[row.project_id] = {
 					name: row.client_project,
 					consultantWeeks: {},
-					totalHours: 0,
-					billableUnits: 0,
-					rate: 0,
-					budget: 0,
-					amount: 0,
-					amountRemaining: 0,
-					poNumber: '',
-					status: '',
 				}
 			}
 
@@ -124,30 +116,35 @@ function getData(cb) {
 					hours: 0,
 					rate: row.rate,
 					times: [],
+					totalHours: 0,
+					billableUnits: 0,
+					budget: 0,
+					amount: 0,
+					amountRemaining: 0,
+					poNumber: '',
+					status: '',
 				}
 			}
 
 			let cw = project.consultantWeeks[rowkey];
 			cw.hours += row.hours;
-			project.totalHours += row.hours;
+			cw.totalHours += row.hours;
+			cw.billableUnits = (cw.totalHours / 8).toFixed(1);
+			cw.budget = row.budget;
+			cw.amount = cw.billableUnits * cw.rate;
+			cw.poNumber = row.po_number;
+			cw.status = row.status;
+
 			cw.times.push({
 				date: row.timesheet_time_date,
 				hours: row.hours,
 			});
 
-			project.billableUnits = (project.totalHours / 8).toFixed(1);
-			project.rate = row.rate;
-			project.budget = row.budget;
-			project.amount = project.billableUnits * project.rate;
-
-			if(project.budget === null) {
-				project.amountRemaining = null;
+			if(cw.budget === null) {
+				cw.amountRemaining = null;
 			} else {
-				project.amountRemaining = project.budget - project.amount;
+				cw.amountRemaining = cw.budget - cw.amount;
 			}
-
-			project.poNumber = row.po_number;
-			project.status = row.status;
 
 		}
 
