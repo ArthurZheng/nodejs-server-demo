@@ -1,0 +1,2247 @@
+{
+  "projects": [
+    {
+      "name": "RealEstate.com.au - Property Finance",
+      "consultantWeeks": [
+        {
+          "weekStart": "2016-03-07",
+          "consultant": {
+            "id": 209,
+            "name": "Sam Bergin"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-03-11",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-09",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-08",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-07",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-02-29",
+          "consultant": {
+            "id": 209,
+            "name": "Sam Bergin"
+          },
+          "hours": 36,
+          "times": [
+            {
+              "date": "2016-03-04",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-03",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-01",
+              "hours": 8
+            },
+            {
+              "date": "2016-02-29",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-02",
+              "hours": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Qantas Airways - Mobile Apps Consulting",
+      "consultantWeeks": [
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 139,
+            "name": "Fotini Karadimas"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-04-01",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-31",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-30",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-29",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 239,
+            "name": "Sol Pandiella-mcleod"
+          },
+          "hours": 28,
+          "times": [
+            {
+              "date": "2016-04-01",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-31",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-30",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-29",
+              "hours": 4
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 293,
+            "name": "Katie Siebert"
+          },
+          "hours": 3,
+          "times": [
+            {
+              "date": "2016-03-28",
+              "hours": 3
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 247,
+            "name": "Andreas Thurn"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-04-01",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-31",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-30",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-29",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 68,
+            "name": "Rhydian Thomas"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-04-01",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-31",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-30",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-29",
+              "hours": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RealEstate.com.au - Off Market Properties",
+      "consultantWeeks": [
+        {
+          "weekStart": "2016-03-21",
+          "consultant": {
+            "id": 152,
+            "name": "Trevor Plant"
+          },
+          "hours": 30,
+          "times": [
+            {
+              "date": "2016-03-24",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-23",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-22",
+              "hours": 6
+            },
+            {
+              "date": "2016-03-21",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-14",
+          "consultant": {
+            "id": 152,
+            "name": "Trevor Plant"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-03-18",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-17",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-16",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-15",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-07",
+          "consultant": {
+            "id": 152,
+            "name": "Trevor Plant"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-03-11",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-10",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-09",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-07",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-02-29",
+          "consultant": {
+            "id": 152,
+            "name": "Trevor Plant"
+          },
+          "hours": 40,
+          "times": [
+            {
+              "date": "2016-03-04",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-03",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-02",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-01",
+              "hours": 8
+            },
+            {
+              "date": "2016-02-29",
+              "hours": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Medibank Private Ltd - Next Better",
+      "consultantWeeks": [
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 19,
+            "name": "Warner Godfrey"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-04-01",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-31",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-30",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-29",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 25,
+            "name": "Ken Ong"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-04-01",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-31",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-30",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-29",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-21",
+          "consultant": {
+            "id": 25,
+            "name": "Ken Ong"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-03-24",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-23",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-22",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-21",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-21",
+          "consultant": {
+            "id": 241,
+            "name": "Matthew Fielding"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-03-24",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-23",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-22",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-21",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-21",
+          "consultant": {
+            "id": 19,
+            "name": "Warner Godfrey"
+          },
+          "hours": 20.5,
+          "times": [
+            {
+              "date": "2016-03-24",
+              "hours": 5.5
+            },
+            {
+              "date": "2016-03-23",
+              "hours": 4
+            },
+            {
+              "date": "2016-03-22",
+              "hours": 4
+            },
+            {
+              "date": "2016-03-21",
+              "hours": 7
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-21",
+          "consultant": {
+            "id": 153,
+            "name": "George Papastamatopoulos"
+          },
+          "hours": 23,
+          "times": [
+            {
+              "date": "2016-03-24",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-22",
+              "hours": 7
+            },
+            {
+              "date": "2016-03-21",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-14",
+          "consultant": {
+            "id": 25,
+            "name": "Ken Ong"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-03-18",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-17",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-16",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-15",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-14",
+          "consultant": {
+            "id": 241,
+            "name": "Matthew Fielding"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-03-18",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-17",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-16",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-15",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-14",
+          "consultant": {
+            "id": 153,
+            "name": "George Papastamatopoulos"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-03-18",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-17",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-16",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-15",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-14",
+          "consultant": {
+            "id": 19,
+            "name": "Warner Godfrey"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-03-18",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-17",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-16",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-15",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-07",
+          "consultant": {
+            "id": 25,
+            "name": "Ken Ong"
+          },
+          "hours": 28,
+          "times": [
+            {
+              "date": "2016-03-11",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-09",
+              "hours": 4
+            },
+            {
+              "date": "2016-03-08",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-07",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-07",
+          "consultant": {
+            "id": 153,
+            "name": "George Papastamatopoulos"
+          },
+          "hours": 40,
+          "times": [
+            {
+              "date": "2016-03-11",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-10",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-09",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-08",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-07",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-07",
+          "consultant": {
+            "id": 19,
+            "name": "Warner Godfrey"
+          },
+          "hours": 30,
+          "times": [
+            {
+              "date": "2016-03-11",
+              "hours": 6
+            },
+            {
+              "date": "2016-03-09",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-08",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-07",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-07",
+          "consultant": {
+            "id": 241,
+            "name": "Matthew Fielding"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-03-10",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-09",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-08",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-07",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-02-29",
+          "consultant": {
+            "id": 19,
+            "name": "Warner Godfrey"
+          },
+          "hours": 25,
+          "times": [
+            {
+              "date": "2016-03-03",
+              "hours": 7
+            },
+            {
+              "date": "2016-03-02",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-01",
+              "hours": 2
+            },
+            {
+              "date": "2016-02-29",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-02-29",
+          "consultant": {
+            "id": 153,
+            "name": "George Papastamatopoulos"
+          },
+          "hours": 20,
+          "times": [
+            {
+              "date": "2016-03-03",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-02",
+              "hours": 8
+            },
+            {
+              "date": "2016-02-29",
+              "hours": 4
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-02-29",
+          "consultant": {
+            "id": 241,
+            "name": "Matthew Fielding"
+          },
+          "hours": 39.25,
+          "times": [
+            {
+              "date": "2016-03-04",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-03",
+              "hours": 7.25
+            },
+            {
+              "date": "2016-03-02",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-01",
+              "hours": 8
+            },
+            {
+              "date": "2016-02-29",
+              "hours": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "caradvice.com.au  - CarAdvice V5",
+      "consultantWeeks": [
+        {
+          "weekStart": "2016-06-27",
+          "consultant": {
+            "id": 170,
+            "name": "Andras Bubics"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-06-30",
+              "hours": 8
+            },
+            {
+              "date": "2016-06-29",
+              "hours": 8
+            },
+            {
+              "date": "2016-06-28",
+              "hours": 8
+            },
+            {
+              "date": "2016-06-27",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-06-20",
+          "consultant": {
+            "id": 170,
+            "name": "Andras Bubics"
+          },
+          "hours": 40,
+          "times": [
+            {
+              "date": "2016-06-24",
+              "hours": 8
+            },
+            {
+              "date": "2016-06-23",
+              "hours": 8
+            },
+            {
+              "date": "2016-06-22",
+              "hours": 8
+            },
+            {
+              "date": "2016-06-21",
+              "hours": 8
+            },
+            {
+              "date": "2016-06-20",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-06-13",
+          "consultant": {
+            "id": 170,
+            "name": "Andras Bubics"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-06-17",
+              "hours": 8
+            },
+            {
+              "date": "2016-06-16",
+              "hours": 8
+            },
+            {
+              "date": "2016-06-15",
+              "hours": 8
+            },
+            {
+              "date": "2016-06-14",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-06-06",
+          "consultant": {
+            "id": 170,
+            "name": "Andras Bubics"
+          },
+          "hours": 40,
+          "times": [
+            {
+              "date": "2016-06-10",
+              "hours": 8
+            },
+            {
+              "date": "2016-06-09",
+              "hours": 8
+            },
+            {
+              "date": "2016-06-08",
+              "hours": 8
+            },
+            {
+              "date": "2016-06-07",
+              "hours": 8
+            },
+            {
+              "date": "2016-06-06",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-05-30",
+          "consultant": {
+            "id": 170,
+            "name": "Andras Bubics"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-06-03",
+              "hours": 8
+            },
+            {
+              "date": "2016-06-01",
+              "hours": 8
+            },
+            {
+              "date": "2016-05-31",
+              "hours": 8
+            },
+            {
+              "date": "2016-05-30",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-05-23",
+          "consultant": {
+            "id": 170,
+            "name": "Andras Bubics"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-05-27",
+              "hours": 8
+            },
+            {
+              "date": "2016-05-25",
+              "hours": 8
+            },
+            {
+              "date": "2016-05-24",
+              "hours": 8
+            },
+            {
+              "date": "2016-05-23",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-05-16",
+          "consultant": {
+            "id": 170,
+            "name": "Andras Bubics"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-05-20",
+              "hours": 8
+            },
+            {
+              "date": "2016-05-18",
+              "hours": 8
+            },
+            {
+              "date": "2016-05-17",
+              "hours": 8
+            },
+            {
+              "date": "2016-05-16",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-05-09",
+          "consultant": {
+            "id": 170,
+            "name": "Andras Bubics"
+          },
+          "hours": 40,
+          "times": [
+            {
+              "date": "2016-05-13",
+              "hours": 8
+            },
+            {
+              "date": "2016-05-12",
+              "hours": 8
+            },
+            {
+              "date": "2016-05-11",
+              "hours": 8
+            },
+            {
+              "date": "2016-05-10",
+              "hours": 8
+            },
+            {
+              "date": "2016-05-09",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-05-02",
+          "consultant": {
+            "id": 170,
+            "name": "Andras Bubics"
+          },
+          "hours": 40,
+          "times": [
+            {
+              "date": "2016-05-06",
+              "hours": 8
+            },
+            {
+              "date": "2016-05-05",
+              "hours": 8
+            },
+            {
+              "date": "2016-05-04",
+              "hours": 8
+            },
+            {
+              "date": "2016-05-03",
+              "hours": 8
+            },
+            {
+              "date": "2016-05-02",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-04-25",
+          "consultant": {
+            "id": 170,
+            "name": "Andras Bubics"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-04-29",
+              "hours": 8
+            },
+            {
+              "date": "2016-04-28",
+              "hours": 8
+            },
+            {
+              "date": "2016-04-27",
+              "hours": 8
+            },
+            {
+              "date": "2016-04-26",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-04-18",
+          "consultant": {
+            "id": 170,
+            "name": "Andras Bubics"
+          },
+          "hours": 40,
+          "times": [
+            {
+              "date": "2016-04-22",
+              "hours": 8
+            },
+            {
+              "date": "2016-04-21",
+              "hours": 8
+            },
+            {
+              "date": "2016-04-20",
+              "hours": 8
+            },
+            {
+              "date": "2016-04-19",
+              "hours": 8
+            },
+            {
+              "date": "2016-04-18",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-04-11",
+          "consultant": {
+            "id": 170,
+            "name": "Andras Bubics"
+          },
+          "hours": 40,
+          "times": [
+            {
+              "date": "2016-04-15",
+              "hours": 8
+            },
+            {
+              "date": "2016-04-14",
+              "hours": 8
+            },
+            {
+              "date": "2016-04-13",
+              "hours": 8
+            },
+            {
+              "date": "2016-04-12",
+              "hours": 8
+            },
+            {
+              "date": "2016-04-11",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-04-04",
+          "consultant": {
+            "id": 170,
+            "name": "Andras Bubics"
+          },
+          "hours": 16,
+          "times": [
+            {
+              "date": "2016-04-08",
+              "hours": 8
+            },
+            {
+              "date": "2016-04-07",
+              "hours": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Amaysim Australia Limited - QA Consulting",
+      "consultantWeeks": [
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 179,
+            "name": "Karen Darby"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-04-01",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-31",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-30",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-29",
+              "hours": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AWS - MARVEL - Mars Virtual Lab",
+      "consultantWeeks": [
+        {
+          "weekStart": "2016-03-14",
+          "consultant": {
+            "id": 239,
+            "name": "Sol Pandiella-mcleod"
+          },
+          "hours": 22,
+          "times": [
+            {
+              "date": "2016-03-17",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-16",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-15",
+              "hours": 6
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-07",
+          "consultant": {
+            "id": 239,
+            "name": "Sol Pandiella-mcleod"
+          },
+          "hours": 2,
+          "times": [
+            {
+              "date": "2016-03-10",
+              "hours": 1
+            },
+            {
+              "date": "2016-03-09",
+              "hours": 1
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-02-29",
+          "consultant": {
+            "id": 239,
+            "name": "Sol Pandiella-mcleod"
+          },
+          "hours": 22,
+          "times": [
+            {
+              "date": "2016-03-03",
+              "hours": 4
+            },
+            {
+              "date": "2016-03-02",
+              "hours": 6
+            },
+            {
+              "date": "2016-03-01",
+              "hours": 8
+            },
+            {
+              "date": "2016-02-29",
+              "hours": 4
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-02-08",
+          "consultant": {
+            "id": 239,
+            "name": "Sol Pandiella-mcleod"
+          },
+          "hours": 24,
+          "times": [
+            {
+              "date": "2016-02-12",
+              "hours": 8
+            },
+            {
+              "date": "2016-02-11",
+              "hours": 7
+            },
+            {
+              "date": "2016-02-09",
+              "hours": 3
+            },
+            {
+              "date": "2016-02-08",
+              "hours": 6
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-01-25",
+          "consultant": {
+            "id": 239,
+            "name": "Sol Pandiella-mcleod"
+          },
+          "hours": 4,
+          "times": [
+            {
+              "date": "2016-01-28",
+              "hours": 2
+            },
+            {
+              "date": "2016-01-27",
+              "hours": 2
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-01-18",
+          "consultant": {
+            "id": 239,
+            "name": "Sol Pandiella-mcleod"
+          },
+          "hours": 9,
+          "times": [
+            {
+              "date": "2016-01-20",
+              "hours": 1
+            },
+            {
+              "date": "2016-01-18",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-01-11",
+          "consultant": {
+            "id": 239,
+            "name": "Sol Pandiella-mcleod"
+          },
+          "hours": 22,
+          "times": [
+            {
+              "date": "2016-01-15",
+              "hours": 7
+            },
+            {
+              "date": "2016-01-14",
+              "hours": 1
+            },
+            {
+              "date": "2016-01-12",
+              "hours": 8
+            },
+            {
+              "date": "2016-01-11",
+              "hours": 6
+            }
+          ]
+        },
+        {
+          "weekStart": "2015-12-14",
+          "consultant": {
+            "id": 239,
+            "name": "Sol Pandiella-mcleod"
+          },
+          "hours": 15,
+          "times": [
+            {
+              "date": "2015-12-18",
+              "hours": 2
+            },
+            {
+              "date": "2015-12-16",
+              "hours": 8
+            },
+            {
+              "date": "2015-12-15",
+              "hours": 5
+            }
+          ]
+        },
+        {
+          "weekStart": "2015-12-07",
+          "consultant": {
+            "id": 239,
+            "name": "Sol Pandiella-mcleod"
+          },
+          "hours": 1,
+          "times": [
+            {
+              "date": "2015-12-09",
+              "hours": 1
+            }
+          ]
+        },
+        {
+          "weekStart": "2015-12-07",
+          "consultant": {
+            "id": 273,
+            "name": "Jon Gebhardt"
+          },
+          "hours": 1,
+          "times": [
+            {
+              "date": "2015-12-09",
+              "hours": 1
+            }
+          ]
+        },
+        {
+          "weekStart": "2015-11-30",
+          "consultant": {
+            "id": 239,
+            "name": "Sol Pandiella-mcleod"
+          },
+          "hours": 6,
+          "times": [
+            {
+              "date": "2015-12-01",
+              "hours": 2
+            },
+            {
+              "date": "2015-11-30",
+              "hours": 4
+            }
+          ]
+        },
+        {
+          "weekStart": "2015-11-23",
+          "consultant": {
+            "id": 239,
+            "name": "Sol Pandiella-mcleod"
+          },
+          "hours": 4,
+          "times": [
+            {
+              "date": "2015-11-27",
+              "hours": 2
+            },
+            {
+              "date": "2015-11-24",
+              "hours": 2
+            }
+          ]
+        },
+        {
+          "weekStart": "2015-10-26",
+          "consultant": {
+            "id": 273,
+            "name": "Jon Gebhardt"
+          },
+          "hours": 1.5,
+          "times": [
+            {
+              "date": "2015-10-28",
+              "hours": 1.5
+            }
+          ]
+        },
+        {
+          "weekStart": "2015-10-26",
+          "consultant": {
+            "id": 239,
+            "name": "Sol Pandiella-mcleod"
+          },
+          "hours": 2,
+          "times": [
+            {
+              "date": "2015-10-28",
+              "hours": 2
+            }
+          ]
+        },
+        {
+          "weekStart": "2015-10-19",
+          "consultant": {
+            "id": 239,
+            "name": "Sol Pandiella-mcleod"
+          },
+          "hours": 2,
+          "times": [
+            {
+              "date": "2015-10-22",
+              "hours": 2
+            }
+          ]
+        },
+        {
+          "weekStart": "2015-09-28",
+          "consultant": {
+            "id": 239,
+            "name": "Sol Pandiella-mcleod"
+          },
+          "hours": 2,
+          "times": [
+            {
+              "date": "2015-09-28",
+              "hours": 2
+            }
+          ]
+        },
+        {
+          "weekStart": "2015-09-21",
+          "consultant": {
+            "id": 239,
+            "name": "Sol Pandiella-mcleod"
+          },
+          "hours": 4,
+          "times": [
+            {
+              "date": "2015-09-24",
+              "hours": 4
+            }
+          ]
+        },
+        {
+          "weekStart": "2015-09-14",
+          "consultant": {
+            "id": 239,
+            "name": "Sol Pandiella-mcleod"
+          },
+          "hours": 11,
+          "times": [
+            {
+              "date": "2015-09-15",
+              "hours": 3
+            },
+            {
+              "date": "2015-09-18",
+              "hours": 5
+            },
+            {
+              "date": "2015-09-16",
+              "hours": 3
+            }
+          ]
+        },
+        {
+          "weekStart": "2015-09-14",
+          "consultant": {
+            "id": 273,
+            "name": "Jon Gebhardt"
+          },
+          "hours": 3,
+          "times": [
+            {
+              "date": "2015-09-15",
+              "hours": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jemena - CABS OneSAP Integration",
+      "consultantWeeks": [
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 113,
+            "name": "Sofy Basir"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-04-01",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-31",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-30",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-29",
+              "hours": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Qantas Airways - Qantas Loyalty 3",
+      "consultantWeeks": [
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 273,
+            "name": "Jon Gebhardt"
+          },
+          "hours": 8,
+          "times": [
+            {
+              "date": "2016-03-29",
+              "hours": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nib Health Funds Limited - Red Queen Milestone ",
+      "consultantWeeks": [
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 248,
+            "name": "Aaron  Harris"
+          },
+          "hours": 26,
+          "times": [
+            {
+              "date": "2016-04-03",
+              "hours": 2
+            },
+            {
+              "date": "2016-04-01",
+              "hours": 1
+            },
+            {
+              "date": "2016-03-31",
+              "hours": 4
+            },
+            {
+              "date": "2016-03-30",
+              "hours": 9
+            },
+            {
+              "date": "2016-03-28",
+              "hours": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Qantas Airways - Qantas Accelerator",
+      "consultantWeeks": [
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 296,
+            "name": "Gerd Wittchen"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-04-01",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-31",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-30",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-29",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 224,
+            "name": "Bryan Signey"
+          },
+          "hours": 16,
+          "times": [
+            {
+              "date": "2016-03-30",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-29",
+              "hours": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Centre for Eye Research Australia - Oculo ",
+      "consultantWeeks": [
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 285,
+            "name": "Albert Jou"
+          },
+          "hours": 38,
+          "times": [
+            {
+              "date": "2016-03-31",
+              "hours": 14
+            },
+            {
+              "date": "2016-03-30",
+              "hours": 11
+            },
+            {
+              "date": "2016-03-29",
+              "hours": 13
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-21",
+          "consultant": {
+            "id": 285,
+            "name": "Albert Jou"
+          },
+          "hours": 16,
+          "times": [
+            {
+              "date": "2016-03-24",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-23",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-14",
+          "consultant": {
+            "id": 285,
+            "name": "Albert Jou"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-03-18",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-17",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-16",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-15",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-07",
+          "consultant": {
+            "id": 285,
+            "name": "Albert Jou"
+          },
+          "hours": 16,
+          "times": [
+            {
+              "date": "2016-03-09",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-08",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-02-29",
+          "consultant": {
+            "id": 285,
+            "name": "Albert Jou"
+          },
+          "hours": 16,
+          "times": [
+            {
+              "date": "2016-03-04",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-03",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-02-22",
+          "consultant": {
+            "id": 285,
+            "name": "Albert Jou"
+          },
+          "hours": 16,
+          "times": [
+            {
+              "date": "2016-02-26",
+              "hours": 8
+            },
+            {
+              "date": "2016-02-25",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-02-15",
+          "consultant": {
+            "id": 285,
+            "name": "Albert Jou"
+          },
+          "hours": 16,
+          "times": [
+            {
+              "date": "2016-02-19",
+              "hours": 8
+            },
+            {
+              "date": "2016-02-18",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-02-15",
+          "consultant": {
+            "id": 269,
+            "name": "Carl Thompson"
+          },
+          "hours": 2.5,
+          "times": [
+            {
+              "date": "2016-02-17",
+              "hours": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Powershop Australia  - Solar Energy Monitoring Trial",
+      "consultantWeeks": [
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 287,
+            "name": "Inna Fourer"
+          },
+          "hours": 4,
+          "times": [
+            {
+              "date": "2016-03-29",
+              "hours": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Roster Right Pty Ltd - Roster Optimisation 2 - Remaining MVP Backlog",
+      "consultantWeeks": [
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 192,
+            "name": "Adam Crough"
+          },
+          "hours": 7,
+          "times": [
+            {
+              "date": "2016-03-28",
+              "hours": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nib Health Funds Limited - nib ARHI Digital Sales",
+      "consultantWeeks": [
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 63,
+            "name": "Robert Maldon"
+          },
+          "hours": 24,
+          "times": [
+            {
+              "date": "2016-04-01",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-31",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-29",
+              "hours": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iSentia Pty Ltd - Data as a Service",
+      "consultantWeeks": [
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 130,
+            "name": "Charles Blaxland"
+          },
+          "hours": 8,
+          "times": [
+            {
+              "date": "2016-03-29",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 302,
+            "name": "Daniel Deng"
+          },
+          "hours": 8,
+          "times": [
+            {
+              "date": "2016-03-29",
+              "hours": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IOOF Services - Project Unite",
+      "consultantWeeks": [
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 295,
+            "name": "Salam Khan"
+          },
+          "hours": 16,
+          "times": [
+            {
+              "date": "2016-03-30",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-29",
+              "hours": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "United Energy - UE Power of Choice - Stage 1 - Customer Access",
+      "consultantWeeks": [
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 287,
+            "name": "Inna Fourer"
+          },
+          "hours": 2,
+          "times": [
+            {
+              "date": "2016-03-29",
+              "hours": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MYOB Technology Pty Ltd - Bank Feeds",
+      "consultantWeeks": [
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 300,
+            "name": "Edwin Granados"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-04-01",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-31",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-30",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-29",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 260,
+            "name": "Marko  Justinek"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-04-01",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-31",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-30",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-29",
+              "hours": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RealEstate.com.au - Residential Re-platforming",
+      "consultantWeeks": [
+        {
+          "weekStart": "2016-03-21",
+          "consultant": {
+            "id": 120,
+            "name": "Richard Fyffe"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-03-24",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-23",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-22",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-21",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-14",
+          "consultant": {
+            "id": 120,
+            "name": "Richard Fyffe"
+          },
+          "hours": 24,
+          "times": [
+            {
+              "date": "2016-03-17",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-16",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-15",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 246,
+            "name": "Matthew Butt"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-04-01",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-31",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-30",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-29",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-21",
+          "consultant": {
+            "id": 246,
+            "name": "Matthew Butt"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-03-24",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-23",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-22",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-21",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-14",
+          "consultant": {
+            "id": 246,
+            "name": "Matthew Butt"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-03-18",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-17",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-16",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-15",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-07",
+          "consultant": {
+            "id": 120,
+            "name": "Richard Fyffe"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-03-10",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-09",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-08",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-07",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-03-07",
+          "consultant": {
+            "id": 246,
+            "name": "Matthew Butt"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-03-10",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-09",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-08",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-07",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-02-29",
+          "consultant": {
+            "id": 246,
+            "name": "Matthew Butt"
+          },
+          "hours": 40,
+          "times": [
+            {
+              "date": "2016-03-04",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-03",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-02",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-01",
+              "hours": 8
+            },
+            {
+              "date": "2016-02-29",
+              "hours": 8
+            }
+          ]
+        },
+        {
+          "weekStart": "2016-02-29",
+          "consultant": {
+            "id": 120,
+            "name": "Richard Fyffe"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-03-03",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-02",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-01",
+              "hours": 8
+            },
+            {
+              "date": "2016-02-29",
+              "hours": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Swann Insurance - AWS account foundation",
+      "consultantWeeks": [
+        {
+          "weekStart": "2016-03-28",
+          "consultant": {
+            "id": 149,
+            "name": "Valentinus Gunawan"
+          },
+          "hours": 32,
+          "times": [
+            {
+              "date": "2016-04-01",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-31",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-30",
+              "hours": 8
+            },
+            {
+              "date": "2016-03-29",
+              "hours": 8
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

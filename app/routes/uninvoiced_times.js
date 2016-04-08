@@ -1,5 +1,5 @@
 'use strict';
-
+const moment = require('moment');
 const db = require('../db');
 
 module.exports = function(req, res) {
@@ -13,7 +13,7 @@ module.exports = function(req, res) {
 
 	timesheet_user.id AS consultant_id,
 
-	CONCAT(timesheet_user.first_name, " ", timesheet_user.last_name) AS consultant, 
+	CONCAT(timesheet_user.first_name, " ", timesheet_user.last_name) AS consultant,
 
 	timesheet_times.id AS timesheet_times_id,
 
@@ -30,12 +30,12 @@ module.exports = function(req, res) {
 	IF(timesheet_times.user_updated_at > timesheet_approvals.updated_at, "Changed", IF(timesheet_approvals.id is NOT NULL, timesheet_approvals.status, "Saved") ) AS status
 
 	FROM timesheet_times
-	LEFT JOIN timesheet_user 
+	LEFT JOIN timesheet_user
 		ON timesheet_times.user_id = timesheet_user.id
 
 	LEFT JOIN timesheet_project
 		ON timesheet_project.proj_id = timesheet_times.proj_id
-		
+
 	LEFT JOIN timesheet_client
 		ON timesheet_client.client_id = timesheet_project.client_id
 
@@ -47,8 +47,8 @@ module.exports = function(req, res) {
 
 
 	WHERE timesheet_times.invoice_item_id is NULL
-		AND timesheet_times.billable = TRUE	
-		
+		AND timesheet_times.billable = TRUE
+
 	ORDER BY timesheet_times.id DESC;`, function(err, rows) {
 		if (err) {
 			console.error(err)
@@ -77,6 +77,8 @@ module.exports = function(req, res) {
 						name: row.consultant,
 					},
 					hours: 0,
+					rate: row.rate,
+					units: ROUND(TIMESTAMPDIFF(MINUTE, times.start_time, times.end_time) / 60 / 8, 1),
 					times: [],
 				}
 			}
@@ -89,16 +91,28 @@ module.exports = function(req, res) {
 			})
 		}
 
-		res.send(JSON.stringify(projects, null, '  '));
-		
+		let projects_array = [];
+		for (let k in projects) {
+				let project = projects[k];
+				let consultant_weeks = [];
+				for(let j in project.consultantWeeks){
+					let consultant_week = project.consultantWeeks[j]
+					consultant_weeks.push(consultant_week)
+				}
+				project.consultantWeeks = consultant_weeks;
+				projects_array.push(project)
+		}
+
+		res.send(JSON.stringify({projects: projects_array}, null, '  '));
+
 	})
 };
 	/*
-	projects: {
-		11: {
+	projects: [
+		{
 			name: "Jemena - CABS OneSAP Integration"
-			consultantWeeks: {
-				1234:2016-03-28: {
+			consultantWeeks: [
+				{
 					weekStart: "2016-03-28"
 					consultant: {
 						name: "Sophy Basir"
@@ -112,7 +126,7 @@ module.exports = function(req, res) {
 						{ date: "2016-04-01", hours: 8 },
 					]
 				}
-			}
+			]
 		}
-	}
+	]
 	*/
