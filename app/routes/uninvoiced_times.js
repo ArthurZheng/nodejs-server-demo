@@ -1,10 +1,11 @@
 'use strict';
-const moment = require('moment');
+// const moment = require('moment');
 const db = require('../db');
 
 module.exports = {
 	handler: function(req, res) {
 		getData(function(err, data){
+			res.set('Access-Control-Allow-Origin', '*');
 			res.send(JSON.stringify(data, null, '  '));
 		});
 	},
@@ -129,18 +130,22 @@ function getData(cb) {
 			let cw = project.consultantWeeks[rowkey];
 			cw.hours += row.hours;
 			project.totalHours += row.hours;
-			console.log('project.totalHours', project.totalHours);
 			cw.times.push({
 				date: row.timesheet_time_date,
 				hours: row.hours,
 			});
 
-
 			project.billableUnits = (project.totalHours / 8).toFixed(1);
 			project.rate = row.rate;
 			project.budget = row.budget;
 			project.amount = project.billableUnits * project.rate;
-			project.amountRemaining = project.budget - project.amount;
+
+			if(project.budget === null) {
+				project.amountRemaining = null;
+			} else {
+				project.amountRemaining = project.budget - project.amount;
+			}
+
 			project.poNumber = row.po_number;
 			project.status = row.status;
 
