@@ -1,55 +1,92 @@
 'use strict';
-const moment = require('moment');
+// const moment = require('moment');
 const db = require('../db');
 
-module.exports = function(req, res) {
+module.exports = {
+	handler: function(req, res) {
+		getData(function(err, data){
+			res.send(JSON.stringify(data, null, '  '));
+		});
+	},
+	dump: function() {
+			getData(function(err, data){
+				console.log(JSON.stringify(data, null, '  '));
+				db.end();
+			});
+	},
+}
+
+function getData(cb) {
 	db.query(`
-	SELECT
-	timesheet_project.proj_id AS project_id,
-	timesheet_approvals.id AS approval_id,
-	CONCAT(timesheet_client.organisation, " - ", timesheet_project.title ) AS client_project,
+		SELECT
 
-	DATE(DATE_SUB(timesheet_times.start_time, INTERVAL WEEKDAY(timesheet_times.end_time) DAY)) as week_start,
+	project.proj_id AS project_id,
 
-	timesheet_user.id AS consultant_id,
+	approvals.id AS approval_id,
 
-	CONCAT(timesheet_user.first_name, " ", timesheet_user.last_name) AS consultant,
+	CONCAT( client.organisation, " - ", project.title ) AS client_project,
 
-	timesheet_times.id AS timesheet_times_id,
+	DATE(DATE_SUB( times.start_time, INTERVAL WEEKDAY( times.end_time) DAY)) as week_start,
 
-	DATE(timesheet_times.start_time) AS timesheet_time_date,
+	user.id AS consultant_id,
 
-	TIMESTAMPDIFF(MINUTE,timesheet_times.start_time, timesheet_times.end_time) / 60 AS hours,
+	CONCAT(user.first_name, " ", user.last_name) AS consultant,
 
-	IF(timesheet_approvals.updated_at < timesheet_times.user_updated_at, "Changed", "Saved") AS timesheet_time_entry_status,
+	times.id AS timesheet_times_id,
 
-	IF(timesheet_times.user_updated_at > timesheet_approvals.updated_at, "Changed", "Not Changed" )AS is_time_entry_changed_since,
+	DATE(times.start_time) AS timesheet_time_date,
 
-	IF(timesheet_approvals.id is NOT NULL, "YES", "NO") AS is_there_approval,
+	TIMESTAMPDIFF(MINUTE, times.start_time, times.end_time) / 60 AS hours,
 
-	IF(timesheet_times.user_updated_at > timesheet_approvals.updated_at, "Changed", IF(timesheet_approvals.id is NOT NULL, timesheet_approvals.status, "Saved") ) AS status
+	task_assignments.billing_units as Unit_Type,
 
-	FROM timesheet_times
-	LEFT JOIN timesheet_user
-		ON timesheet_times.user_id = timesheet_user.id
+	task_assignments.bill_rate as rate,
 
-	LEFT JOIN timesheet_project
-		ON timesheet_project.proj_id = timesheet_times.proj_id
+	purchase_order.value - ROUND(TIMESTAMPDIFF(MINUTE, times.start_time, times.end_time) / 60 / 8, 1) * task_assignments.bill_rate  AS amount_remaining,
 
-	LEFT JOIN timesheet_client
-		ON timesheet_client.client_id = timesheet_project.client_id
+	purchase_order.value AS budget,
 
-	LEFT JOIN timesheet_approvals
-		ON timesheet_approvals.user_id = timesheet_user.id
-		AND timesheet_approvals.proj_id = timesheet_project.proj_id
-		AND timesheet_approvals.start_time <= timesheet_times.start_time
-		AND timesheet_approvals.end_time >= timesheet_times.end_time
+	purchase_order.po_number AS PO_Num,
 
 
-	WHERE timesheet_times.invoice_item_id is NULL
-		AND timesheet_times.billable = TRUE
+	IF(approvals.updated_at <  times.user_updated_at, "Changed", "Saved") AS timesheet_time_entry_status,
 
-	ORDER BY timesheet_times.id DESC;`, function(err, rows) {
+	IF(times.user_updated_at > approvals.updated_at, "Changed", "Not Changed" )AS is_time_entry_changed_since,
+
+	IF(approvals.id is NOT NULL, "YES", "NO") AS is_there_approval,
+
+	IF(times.user_updated_at > approvals.updated_at, "Changed", IF( approvals.id is NOT NULL, approvals.status, "Saved") ) AS status
+
+	FROM timesheet_times AS times
+
+	LEFT JOIN timesheet_user AS user
+		ON user.id = times.user_id
+
+	LEFT JOIN timesheet_project AS project
+		ON project.proj_id = times.proj_id
+
+	LEFT JOIN timesheet_client AS client
+		ON client.client_id = project.client_id
+
+	LEFT JOIN timesheet_purchase_order AS purchase_order
+		ON purchase_order.id = times.po_id
+
+	LEFT JOIN timesheet_task_assignments AS task_assignments
+		ON task_assignments.project_task_id = times.project_task_id
+		AND task_assignments.user_id = times.user_id
+
+	LEFT JOIN timesheet_approvals AS approvals
+		ON approvals.user_id =  user.id
+		AND approvals.proj_id =  project.proj_id
+		AND  approvals.start_time <=  times.start_time
+		AND  approvals.end_time >=  times.end_time
+
+
+	WHERE times.invoice_item_id is NULL
+		AND times.billable = TRUE
+
+	ORDER BY times.id DESC;
+`, function(err, rows) {
 		if (err) {
 			console.error(err)
 			return
@@ -78,7 +115,6 @@ module.exports = function(req, res) {
 					},
 					hours: 0,
 					rate: row.rate,
-					units: ROUND(TIMESTAMPDIFF(MINUTE, times.start_time, times.end_time) / 60 / 8, 1),
 					times: [],
 				}
 			}
@@ -103,10 +139,10 @@ module.exports = function(req, res) {
 				projects_array.push(project)
 		}
 
-		res.send(JSON.stringify({projects: projects_array}, null, '  '));
+	cb(null, {projects: projects_array});
 
 	})
-};
+}
 	/*
 	projects: [
 		{
